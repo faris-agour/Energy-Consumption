@@ -1,47 +1,37 @@
-# Predicting Customer Purchase Decisions in E-Commerce
+# Energy Consumption Analysis
 
-This project analyzes online shopping behavior to predict whether a customer will complete a purchase. Using a dataset of online shopping sessions, we explore key factors influencing purchase decisions, such as browsing patterns, session duration, and customer type.
+## Overview
+This project analyzes energy consumption data to uncover patterns, trends, and insights that can help optimize energy usage, reduce costs, and improve sustainability. The dataset includes information about energy consumption across different sectors, time periods, and geographic locations.
 
----
+## Dataset
+The dataset contains the following columns:
+- **Timestamp**: Date and time of energy consumption recording.
+- **Energy Consumption (kWh)**: Amount of energy consumed.
+- **Sector**: Sector consuming the energy (e.g., residential, commercial, industrial).
+- **Region**: Geographic location of consumption.
+- **Weather Data**: Optional features like temperature, humidity, etc.
 
-## **Key Features**
+## Objectives
+1. Analyze trends in energy consumption over time.
+2. Compare energy usage across different sectors.
+3. Explore geographic variations in energy consumption.
+4. Identify opportunities for energy efficiency improvements.
+5. Visualize insights for effective communication.
 
-### 🔹 Data Preprocessing & Feature Engineering  
-✅ Handling missing values, encoding categorical variables, and scaling numerical data.
+## Tools and Technologies
+- Python
+- Libraries: `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
+- Jupyter Notebook
+- Git/GitHub
 
-### 🔹 Exploratory Data Analysis (EDA)  
-✅ Understanding consumer behavior trends, seasonal effects, and browsing patterns.
+## Code Structure
+- `data/`: Contains the dataset file(s).
+- `notebooks/`: Jupyter notebooks for data cleaning, analysis, and visualization.
+- `scripts/`: Python scripts for automation (if applicable).
+- `visualizations/`: Saved plots and charts.
+- `README.md`: Project overview and instructions.
 
-### 🔹 Customer Segmentation  
-✅ Identifying low purchase rate customers and returning customers.
-
-### 🔹 Predictive Modeling  
-✅ Using machine learning models to estimate purchase probability.
-
-### 🔹 Model Evaluation & Optimization  
-✅ Comparing different classification models, hyperparameter tuning, and performance analysis.
-
-### 🔹 Business Insights  
-✅ Providing data-driven recommendations for marketing strategies to improve conversion rates.
-
----
-
-## **Tech Stack**
-
-- 🐍 **Python, Pandas, NumPy, Matplotlib, Seaborn**  
-- 🤖 **Scikit-learn for machine learning models**  
-- ⚙️ **Feature Engineering & Data Preprocessing**  
-- 📊 **Model Evaluation & Performance Metrics**
-
----
-
-## **Goal**  
-🎯 Help businesses understand customer behavior and optimize marketing strategies by predicting purchase intent.
-
----
-
-## **How to Use**
-
+## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/customer-purchase-prediction.git
+   git clone https://github.com/faris-agour/energy-consumption-analysis.git
